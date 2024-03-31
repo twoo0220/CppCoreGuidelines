@@ -967,7 +967,7 @@ C++ 17에서는 다수의 변수들을 선언과 동시에 초기화 할 수 있
 
 ##### Note
 
-가능하기는 하지만, C++에서 `nullptr`인 개체를 생성하는 것은 정상적(valid)이지 않다(예를 들어, `T* p = nullptr; T& r = (T&)*p;`). 그런 오류는 굉장히 드물다(very uncommon).
+가능하기는 하지만, C++에서 `nullptr`인 개체를 생성하는 것은 정상적(valid)이지 않다 (예를 들어, `T* p = nullptr; T& r = (T&)*p;`). 그런 오류는 굉장히 드물다(very uncommon).
  
 ##### Note
 
