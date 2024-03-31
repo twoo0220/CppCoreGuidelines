@@ -758,7 +758,7 @@ optional 값에 대해 알고 있다면, 포인터를 사용하거나, `std::opt
 
 ##### Exceptions
 
-* 상속 계층구조에 속한 타입처럼 값 타입이 아닌 경우, 개체를 `unique_ptr` 혹은 `shared_ptr`로 반환하라
+* 상속 계층 구조에 속한 타입처럼 값 타입이 아닌 경우, 개체를 `unique_ptr` 혹은 `shared_ptr`로 반환하라.
 * 많약 값의 이동 비용이 크다면 (`array<BigTrivial>` 같은 경우), 자유 저장소에 할당하고 그 핸들을 (`unique_ptr`와 같은) 반환하는 것을 고려하라. 또는 `const`가 아닌 참조(출력 매개변수)를 전달해 개체를 채워넣도록 하라
 * 최대 크기(capacity)를 가진 개체(예를 들어 `std::string`, `std::vector`)를 여러 함수 호출과정에서 재사용하고자 한다면, [입출력 매개변수로 참조를 전달하라](#Rf-out-multi).
 
