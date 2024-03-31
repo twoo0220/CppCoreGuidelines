@@ -621,10 +621,9 @@ optional 값에 대해 알고 있다면, 포인터를 사용하거나, `std::opt
 ```c++
     void increment_all(span<int> a)
     {
-    for (auto&& e : a)
-        ++e;
+        for (auto&& e : a)
+            ++e;
     }
-```
 
 ##### Note
 
