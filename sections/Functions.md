@@ -686,7 +686,7 @@ optional 값에 대해 알고 있다면, 포인터를 사용하거나, `std::opt
 
 ##### Exception
 
-"will-move-from" 매개 변수가 `shared_ptr`이면 [R.34](./References.md/#Rr-sharedptrparam-owner)를 따르고 `shared_ptr`을 값으로 전달한다.
+"넘겨주는(will-move-from)" 매개 변수가 `shared_ptr`이면 [R.34](./References.md/#Rr-sharedptrparam-owner)를 따르고 `shared_ptr`을 값으로 전달한다.
 
 ##### Enforcement
 
