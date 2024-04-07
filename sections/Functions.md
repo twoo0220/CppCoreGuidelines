@@ -851,7 +851,7 @@ C++ 17에서는 다수의 변수들을 선언과 동시에 초기화 할 수 있
         do_something_with(iter);
 ```
 
-모던 C++에서는 의미 있는 이름을 가진 `struct`가 더 일반적입니다. 예를 들어 `ranges::min_max_result`, `from_chars_result` 등을 참조.
+모던 C++에서는 의미 있는 이름을 가진 `struct`가 더 일반적이다. 예를 들어 `ranges::min_max_result`, `from_chars_result` 등을 참조하라.
 
 ##### Exception
 
