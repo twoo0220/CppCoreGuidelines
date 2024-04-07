@@ -732,6 +732,8 @@ optional 값에 대해 알고 있다면, 포인터를 사용하거나, `std::opt
 
 * 모든 정적 경로에 대해 단 한번 `std::forward`하는 경우를 제외하고 `TP&&` 매개변수를 받는 함수를 지적한다. (`TP`는 템플릿 인자의 이름이다) 또는 `std::forward`을 한 번 이상 수행하지만 정적 경로마다 정확히 한 번씩 다른 데이터 멤버로 자격을 부여한다.
 
+> * Flag a function that takes a TP&& parameter (where TP is a template type parameter name) and does anything with it other than std::forwarding it exactly once on every static path, or std::forwarding it more than once but qualified with a different data member exactly once on every static path.
+
 ### <a name="Rf-out"></a>F.20: "출력(out)"에는 매개변수보다는 값을 반환하는 방법을 선호하라
 
 ##### Reason
